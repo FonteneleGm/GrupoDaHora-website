@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}  
+header{
+    background-color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 3px solid #000;
+}
+.headerbar ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.headerbar nav li{ /* Especificidade, vai formatar apenas o "li" dentro do "nav" */
+    display: inline-block; /* PERMITIR QUE OS LI'S FIQUEM UM DO LADO DO OUTRO */
+    list-style-type: none;
+}
+.headerbar li a{
+    display: inline-block;
+    border-right: 3px solid #000;
+    border-left: 3px solid #000;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: black;
+}
+.headerbar li a:hover{
+    background-image: url('imgs/mamae (WhatsApp Image 2025-06-27 at 17.45.46).jpeg');
+    /*color: white;*/  
+}
+main{
+    text-align: center;
+    background-image: url('imgs/BlurredBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main h1{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+} 
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-size: 0.8rem;
+  border-top: 3px solid #000;
+}
