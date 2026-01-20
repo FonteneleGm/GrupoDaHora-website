@@ -38,11 +38,11 @@ header{
     color: black;
 }
 .headerbar li a:hover{
-    background-image: url('imgs/mamae (WhatsApp Image 2025-06-27 at 17.45.46).jpeg');
+    background-image: url('/imgs/mamae (WhatsApp Image 2025-06-27 at 17.45.46).jpeg');
     /*color: white;*/  
 }
 body{
-    background-image: url('imgs/BlurredBackground.png');
+    background-image: url('/imgs/BlurredBackground.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
