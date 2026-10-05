@@ -1,0 +1,14 @@
+{
+  "name": "Grupo da Hora - Website",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "forwardPorts": [4200],
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Angular.ng-template",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
