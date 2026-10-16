@@ -1,0 +1,12 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+main {
+  background-image: url('/imgs/BlurredBackground.png');
+}
+
+#welcome {
+  text-shadow: 2px 2px 4px black;
+}
